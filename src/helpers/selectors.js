@@ -4,7 +4,7 @@ export const getInterview = (state, interview) => {
     const setInterviewer = state.interviewers[i];
     return {
       "student" : interview.student,
-      "interviewer" : {...setInterviewer}
+      "interviewer" : setInterviewer
     };
   }
   return null;
@@ -12,7 +12,7 @@ export const getInterview = (state, interview) => {
 
 export const getAppointmentsForDay = (state, day) => {
   const daySet = state.days.find(currentDay => currentDay.name === day);
-  if (!daySet) {
+  if (!daySet || state.days.length === 0) {
     return [];
   }
   const dayAppointments = daySet.appointments.map(id => state.appointments[id]);
