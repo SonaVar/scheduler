@@ -168,7 +168,7 @@ storiesOf("Button", module)
     <Form 
       name="Lydia Miller-Jones"
       interviewers={interviewers}
-      interviewer={3}
+      interviewer={2}
       onSave={action("onSave")}
       onCancel={action("onCancel")}
     />)
