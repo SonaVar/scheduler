@@ -1,3 +1,5 @@
+//Mocks AXIOS request calls for Jest Unit testing purposes
+
 const fixtures = {
   days: [
     {

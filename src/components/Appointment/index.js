@@ -22,10 +22,12 @@ export default function Appointment(props) {
   const ERROR_SAVE = "ERROR_SAVE";
   const ERROR_DELETE = "ERROR_DELETE";
 
+  //imports values from useVisualMode custom hook
   const { mode, transition, back } = useVisualMode(
     props.interview ? SHOW : EMPTY
   );
 
+  //save() function saves student name and interviewer selected by calling bookInterview()
   const save = (name, interviewer) => {
     if(name && interviewer) {
       const interview = {
@@ -40,6 +42,7 @@ export default function Appointment(props) {
     }
   }
 
+  //destroy() function deletes an appointment by calling cancelInterview()
   function destroy() {
     transition(DELETE, true);
     props

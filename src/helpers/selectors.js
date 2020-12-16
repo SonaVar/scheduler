@@ -1,3 +1,4 @@
+//function returns interview object containing student name and interviewer data fetched from state
 export const getInterview = (state, interview) => {
   if (interview) {
     const i = interview.interviewer;
@@ -10,6 +11,7 @@ export const getInterview = (state, interview) => {
   return null;
 };
 
+//function returns appointments for the specific day
 export const getAppointmentsForDay = (state, day) => {
   const daySet = state.days.find(currentDay => currentDay.name === day);
   if (!daySet || state.days.length === 0) {
@@ -20,6 +22,7 @@ export const getAppointmentsForDay = (state, day) => {
   return dayAppointments;
 }
 
+//function returns interviewers for the specific day
 export const getInterviewersForDay = (state, day) => {
   const daySet = state.days.find(currentDay => currentDay.name === day);
   if (!daySet) {

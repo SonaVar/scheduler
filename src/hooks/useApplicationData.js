@@ -12,7 +12,7 @@ export default function useApplicationData() {
   });
   const setDay = day => setState({ ...state, day });
 
-  //Function to set spots
+  //Function to set spots for each appointment create and delete
   function setSpots(id) {
     const dayObject = state.days.find(element => element.appointments.includes(id));
     const dayId = dayObject.id - 1;

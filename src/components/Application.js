@@ -10,6 +10,8 @@ import useApplicationData from "hooks/useApplicationData";
 
 
 export default function Application(props) {
+
+  //imports values from useApplicationData custom hook
   const {
     state,
     setDay,
@@ -19,6 +21,7 @@ export default function Application(props) {
 
   const dailyInterviewers = getInterviewersForDay(state, state.day);
 
+  //returns an Appointment schedule for each day
   const schedule = getAppointmentsForDay(state, state.day).map(currentAppointment => {
     return (
       <Appointment
