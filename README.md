@@ -35,7 +35,7 @@ npm run storybook
 
 !["Screenshot of the confirmation message on delete"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.47%20PM.png?raw=true)
 
-!["Screenshot of the server Error message"]()
+!["Screenshot of the server Error message"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%206.50.17%20PM.png?raw=true)
 
 ## Technical Specifications
 
