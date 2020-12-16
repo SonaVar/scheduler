@@ -25,13 +25,15 @@ npm test
 npm run storybook
 ```
 ## Final Product
-!["Screenshot of the day selected with spots remaining"]()
+!["Screenshot of the day selected with spots remaining"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.23.32%20PM.png?raw=true)
 
-!["Screenshot of the create appointment with selected input"]()
+!["Screenshot of the empty create appointment"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.07%20PM.png?raw=true)
 
-!["Screenshot of show form"]()
+!["Screenshot of the create appointment with selected input"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.32%20PM.png?raw=true)
 
-!["Screenshot of the confirmation message on delete"]()
+!["Screenshot of show form"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.25.39%20PM.png?raw=true)
+
+!["Screenshot of the confirmation message on delete"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.47%20PM.png?raw=true)
 
 !["Screenshot of the server Error message"]()
 
