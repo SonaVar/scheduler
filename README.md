@@ -25,17 +25,17 @@ npm test
 npm run storybook
 ```
 ## Final Product
-!["Screenshot of the day selected with spots remaining"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.23.32%20PM.png?raw=true)
+!["Screenshot of the day selected with spots remaining"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20the%20day%20selected%20with%20spots%20remaining.png?raw=true)
 
-!["Screenshot of the empty create appointment"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.07%20PM.png?raw=true)
+!["Screenshot of the empty create appointment"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20the%20empty%20create%20appointment.png?raw=true)
 
-!["Screenshot of the create appointment with selected input"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.32%20PM.png?raw=true)
+!["Screenshot of the create appointment with selected input"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20the%20create%20appointment%20with%20selected%20input.png?raw=true)
 
-!["Screenshot of show form"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.25.39%20PM.png?raw=true)
+!["Screenshot of show form"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20show%20form.png?raw=true)
 
-!["Screenshot of the confirmation message on delete"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%205.26.47%20PM.png?raw=true)
+!["Screenshot of the confirmation message on delete"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20the%20confirmation%20message%20on%20delete.png?raw=true)
 
-!["Screenshot of the server Error message"](https://github.com/SonaVar/scheduler/blob/master/docs/Screen%20Shot%202020-12-16%20at%206.50.17%20PM.png?raw=true)
+!["Screenshot of the server Error message"](https://github.com/SonaVar/scheduler/blob/master/docs/Design%20of%20the%20server%20Error%20message.png?raw=true)
 
 ## Technical Specifications
 
